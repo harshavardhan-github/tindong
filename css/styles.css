@@ -1,0 +1,126 @@
+h1 {
+  font-family: 'Montserrat';
+  size: 3rem;
+  line-height: 1.5;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  font-family: Montserrat;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 1.3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+em {
+  color: white;
+}
+
+
+
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  color: grey;
+  padding: 10px;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 50px;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+.dog-img {
+  z-index: 2;
+  height: 600px;
+}
+
+.features-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+.tes-img {
+  width: 8%;
+  border-radius: 100%;
+}
+
+.icon-img {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.price-h2 {
+  size: 2rem;
+  font-family: Montserrat;
+}
+
+.cta1 {
+  font-family: Montserrat;
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+  font-size: 3.5rem;
+  line-height: 2;}
+
+
+@media max_width(1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+  }
+}
